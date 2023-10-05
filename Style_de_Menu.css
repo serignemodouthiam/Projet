@@ -1,0 +1,293 @@
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 35px;
+}
+
+.navbar {
+    background: steelblue;
+    color: aliceblue;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    line-height: 80px;
+    padding: 0.5%;
+}
+
+nav ul li a {
+    font-size: 15px;
+    font-family: bahnschrift;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+    color: tomato;
+    transition: .5s;
+}
+
+nav ul li {
+    margin: 5px 5px;
+    background: whitesmoke;
+    line-height: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.active {
+    color: whitesmoke;
+    background: steelblue;
+    border: 1px solid steelblue;
+    font-size: 18px;
+}
+
+.active:visited {
+    color: gold;
+}
+
+.active:hover {
+    color: black;
+    transition: .6s;
+}
+
+input[type="search"] {
+    border: 1px solid red;
+    border-radius: 5px;
+    height: 30px;
+    width: 60%;
+}
+
+input[type="search"]:hover {
+    border: 1px solid black;
+    transition: .5s;
+}
+
+header {
+    border-radius: 30px 0 30px 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: 5px solid gold;
+    border-bottom: 5px solid red;
+}
+
+.marquee {
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: steelblue;
+    font-family: cambria;
+    letter-spacing: 2px;
+}
+
+nav img {
+    width: 100px;
+    height: 105px;
+    border-radius: 10px;
+}
+
+.vert {
+    color: rgb(74, 232, 74);
+    font-weight: bold;
+}
+
+.red {
+    color: rgb(251, 27, 27);
+    font-weight: bold;
+}
+
+.small {
+    font-size: 13px;
+    font-family: 'agency fb';
+}
+
+.grand {
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+.br-left {
+    border-left: 1px solid black;
+}
+
+.shadow {
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.hr {
+    border-bottom: 1px solid black;
+}
+
+.br {
+    border: 1px solid black;
+}
+
+aside {
+    border: 2px solid steelblue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: whitesmoke;
+    background-repeat: no-repeat;
+    font-family: cambria;
+    font-style: oblique;
+    font-size: 15px;
+    font-family: monospace;
+    color: steelblue;
+}
+
+legend {
+    font-size: 35px;
+    font-family: 'agency fb';
+    text-decoration: underline 2px gray;
+}
+
+.shadow-lg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: 2px solid steelblue;
+}
+
+footer {
+    font-family: 'times new roman';
+    font-size: 1em;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+hr {
+    padding: 2px;
+}
+
+picture img {
+    margin-top: 50px;
+    width: 90%;
+    height: 80%;
+}
+
+.img-header {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.caption {
+    text-align: center;
+}
+
+.img_-radius {
+    border-radius: 20px;
+}
+
+.text {
+    font-family: 'lucida sans';
+    line-height: 30px;
+    font-style: normal;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-indent: 50px;
+}
+
+.text1 {
+    font-family: bahnschrift;
+    margin-top: 30px;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    text-indent: 50px;
+}
+
+.text-right {
+    font-family: 'lucida sans';
+    margin-top: 5px;
+    text-indent: 50px
+}
+
+.text::first-letter {
+    font-size: 35px;
+}
+
+figcaption {
+    letter-spacing: 2px;
+    font-family: cambria;
+    font-style: oblique;
+    text-indent: 25px;
+    font-weight: bold;
+}
+
+.border-secondary {
+    color: black;
+    font-size: 15px;
+    font-family: cambria;
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'algerian';
+}
+
+.post-header {
+    font-family: 'lucida sans';
+    font-style: italic;
+    border-radius: 0 0 0 20px;
+    border-left: 5px solid steelblue;
+    border-bottom: 5px solid steelblue;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: steelblue;
+    font-size: 2.5 em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'arial black';
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.commenter {
+    background: gray;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-family: 'arial narrow';
+}
+
+a[class="col-md-3"] {
+    font-size: 12px;
+    color: steelblue;
+    text-decoration: none;
+    font-family: 'arial black';
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.titre-article {
+    color: steelblue;
+    font-family: 'arial black';
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+a[target="_ublank"] {
+    color: white;
+}
+
+.contact {
+    background-color: steelblue;
+}
